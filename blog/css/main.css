@@ -1,0 +1,70 @@
+
+nav{
+	grid-row: 1/1;
+	height: 80px;
+}
+
+nav #logo{
+	float: left;
+	text-decoration: none;
+	line-height: 80px;
+	font-weight: bold;
+	color: black;
+	font-size: 1.3em;
+}
+
+nav .menu{
+	float: right;
+	display: flex;
+	list-style: none;
+}
+
+nav .menu .links{
+	text-decoration: none;
+	line-height: 80px;
+	padding: 0 1em;
+}
+
+nav #theme_btn{
+	position: relative;
+	line-height: 80px;
+	height: 80px;
+	width: 60px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+/*header*/
+
+header{
+	display: flex;
+	grid-row: 2/2;
+	height: 100px;
+	position: relative;
+}
+
+#profile{
+	background-image: url(../images/prof2.jpg);
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	background-color: coral;
+	border-radius: 100%;
+	float: left;
+	margin-top: 1em;
+	margin-right: 2em;
+}
+
+header p{
+	margin-top: 2em;
+}
+
+/*content*/
+
+.content{
+	margin-top: 3em;
+	grid-row: 3/-1;
+	overflow-y: scroll;
+}
+
