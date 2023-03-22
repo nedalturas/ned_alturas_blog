@@ -4,7 +4,7 @@ let btn = document.getElementById('theme_btn');
 let logo = document.getElementById('logo');
 const links = document.getElementById('link');
 
-
+// Darkmode function have to be polished
 function changeTheme(){
 	element.classList.toggle('darkmode');
 
@@ -22,3 +22,18 @@ function changeTheme(){
 		links.style.color = 'WHITE';
 	}
 }
+
+
+// Will have to replace this later
+const toggleSwitch = document.querySelector('#mode-toggle');
+
+function switchMode(e) {
+	if (e.target.checked) {
+		document.body.classList.add('dark-mode');
+	} else {
+		document.body.classList.remove('dark-mode');
+	}
+}
+
+toggleSwitch.addEventListener('change', switchMode, false);
+

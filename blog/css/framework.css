@@ -67,3 +67,83 @@ body{
 	text-align: justify;
 	font-family: 'Product Sans';
 }
+
+/* 
+
+body {
+	background-color: #f5f5f5;
+	color: #333;
+	transition: background-color 0.5s ease;
+}
+
+body.dark-mode {
+	background-color: #333;
+	color: #f5f5f5;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.mode-switch {
+	display: flex;
+	align-items: center;
+}
+
+.mode-toggle-label {
+	display: inline-block;
+	background-color: #f5f5f5;
+	border-radius: 30px;
+	width: 60px;
+	height: 30px;
+	position: relative;
+	cursor: pointer;
+}
+
+.mode-toggle-label:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 26px;
+	height: 26px;
+	background-color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.mode-toggle-label:after {
+	content: "Light";
+	position: absolute;
+	top: 5px;
+	right: -40px;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.mode-toggle-label:hover:before {
+	transform: translateX(30px);
+}
+
+.mode-toggle-label:hover:after {
+	transform: translateX(-10px);
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked + .mode-toggle-label {
+	background-color: #333;
+}
+
+input[type="checkbox"]:checked + .mode-toggle-label:before {
+	transform: translateX(30px);
+	background-color: #333;
+}
+
+*/
