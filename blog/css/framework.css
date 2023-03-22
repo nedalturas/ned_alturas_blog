@@ -1,9 +1,9 @@
 @font-face{
 	font-family: 'Lovelo Black';
-	src: url(./fonts/lovelo/Lovelo Black.otf);
+	src: url(./fonts/lovelo/LoveloBlack.otf);
 
 	font-family: 'Product Sans';
-	src: url(./fonts/Product Sans/Product Sans.ttf);
+	src: url(./fonts/ProductSans/ProductSans.ttf);
 }
 
 .darkmode{
