@@ -1,3 +1,14 @@
+/* 
+I need to import fonts to this and append it on the directory 
+    
+I am still deciding if I will proceed on using the lovella font 
+but Din or General Sans looks great as well.
+
+This blog must be minimal and easy to read also I need to add responsive
+and dark mode feature before I do all the backend stuff.
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,4 +23,12 @@ html,body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
+}
+
+.content_container{
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: .5em;
 }
