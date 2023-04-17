@@ -1,3 +1,5 @@
+/* navigation */
+
 nav{
 	grid-row: 2/2;
 	grid-column: 2/12;
@@ -45,4 +47,33 @@ nav{
 .nav_link{
 	color: #414141;
 	text-decoration: none;
+}
+
+/*
+content container 
+
+For this I will try to implement a 4 column layout for my blogs
+
+*/
+
+.content_container{
+	grid-row: 4/12;
+	grid-column: 2/12;
+	width: 100%;
+}
+
+.content{
+	background-color: aquamarine;
+	border-radius: 10px;
+	padding: 2em;
+	text-align: justify;
+}
+
+.content_title{
+	font-size: 3em;
+}
+
+.content p{
+	margin-top: .5em;
+	font-weight: 200;
 }
