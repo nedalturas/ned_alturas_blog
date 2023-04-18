@@ -47,6 +47,23 @@ nav{
 .nav_link{
 	color: #414141;
 	text-decoration: none;
+	padding: .5em;
+	border-radius: 10px;
+	transition: 200ms ease-in-out;
+}
+
+#logo_wrap{
+	float: left;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	padding: 0 2em 0 0;
+}
+
+
+.nav_link:hover{
+	background-color: #414141;
+	color: #ffffe3;
 }
 
 /*
@@ -77,3 +94,5 @@ For this I will try to implement a 4 column layout for my blogs
 	margin-top: .5em;
 	font-weight: 200;
 }
+
+/* main > header */
