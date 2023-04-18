@@ -32,3 +32,17 @@ html,body{
     grid-template-rows: repeat(2, 1fr);
     grid-gap: .5em;
 }
+
+/*
+ fonts 
+
+ I think I don't want to use Lovello Font for this, I'll just keep it minimal
+ and easy to read since this is a blog.
+ 
+*/
+
+@font-face {
+    font-family: Product Sans;
+    src: url('../fonts/Product\ Sans/');
+}
+
